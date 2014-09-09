@@ -28,9 +28,8 @@ You can then use as such:
 // get the authorization URL
 $url = $this->provider->getAuthorizationUrl();
 
-```
+// ...
 
-```
 // exchange authorization code for a token
 $token = $this->provider->getAccessToken('authorization_code', [
     'code' => $code
