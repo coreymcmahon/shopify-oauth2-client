@@ -1,0 +1,24 @@
+{
+    "name": "coreymcmahon/shopify-oauth2-client",
+    "description": "Shopify connector for the PHP League OAuth 2 client.",
+    "license": "MIT",
+    
+    "authors": [
+        {
+            "name": "Corey McMahon",
+            "email": "contact@coreymcmahon.com",
+            "homepage": "http://www.coreymcmahon.com",
+            "role": "Lead"
+        }
+    ],
+    
+    "require": {
+        "league/oauth2-client": "~0.3"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Slashnode\\OAuth2": "src/"
+        }
+    }
+}
