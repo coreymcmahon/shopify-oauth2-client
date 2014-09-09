@@ -2,7 +2,7 @@
 
 ## Usage
 
-```
+```php
 // instantiate
 $this->provider = new Slashnode\OAuth2\Shopify([
     'clientId'      =>  'client_id_goes_here',
@@ -24,7 +24,7 @@ $this->provider->setScopes(array(
 
 You can then use as such:
 
-```
+```php
 // get the authorization URL
 $url = $this->provider->getAuthorizationUrl();
 
